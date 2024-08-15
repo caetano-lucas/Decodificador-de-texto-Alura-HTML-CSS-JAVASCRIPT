@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/logoalura.png">
+    </header>
+
+    <main class="decodificador">
+        <section class="decodificador__2abas">
+            <div class="decodificador__2abas__texto">
+                <textarea onclick="limpar_decodificador('')" style="resize: none;" name="" id="decodificador"
+                    class="decodificador__2abas__texto__digitar">Digite seu texto</textarea>
+                <p class="decodificador__2abas__texto__aviso">Utilize apenas letras minúsculas e sem assento</p>
+
+                <div class="decodificador__2abas__texto__botao">
+                    <button onclick="descriptografar()"
+                        class="decodificador__2abas__texto__botao__descriptografar">Descriptografar</button>
+                    <button onclick="criptografar()"
+                        class="decodificador__2abas__texto__botao__criptografar">Criptografar</button>
+                </div>
+            </div>
+            <div class="decodificador__2abas__mensagemde_decodificada">
+                <img src="assets/meninosentado.png" alt="menino esperando a mensagem"
+                    class="decodificador__2abas__mensagemde_decodificada__menino" id="menino">
+                <img src="assets/nenhumamensagem.png" alt="nenhuma mensagem a ser exibida"
+                    class="decodificador__2abas__mensagemde_decodificada__mensagem" id="nenhumamensagem">
+                <p class="decodificador__2abas__mensagemde_decodificada__resposta" id="mensagem_decodificada"></p>
+                <button onclick="copiar()"
+                    class="decodificador__2abas__mensagemde_decodificada__botao_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+
+</html>

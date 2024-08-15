@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #0A3871;
+    --cor-teciaria:  #D8DFE8;
+    --cor-quartenaria: #495057;
+    --cor-fundo: #f3f5fc;
+    --fonte-primaria: 'Inter', 'sans-serif';
+    --fonte-secundaria: 'Inter', 'sans-serif';
+}
+
+body{
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+}
+
+.decodificador{
+    padding: 3% 12% 12% 12%;
+}
+
+.decodificador__2abas{
+    display: flex;
+    gap: 5%;
+
+}
+
+.decodificador__2abas__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 680px;
+    height: 944px;
+}
+
+.decodificador__2abas__texto__digitar{
+    width: 680px;
+    height: 100%;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    border: none;
+    background-color: var(--cor-fundo);
+    font-size: 2rem;
+}
+
+.decodificador__2abas__texto__aviso{
+    font-family: var(--fonte-secundaria);
+    width: 100%;
+    height: 5%;
+    font-size: 0.75rem;
+}
+
+.decodificador__2abas__texto__botao{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-primaria);
+    align-items: center;
+    gap : 20px;
+    width: 680px;
+   
+}
+
+.decodificador__2abas__texto__botao__descriptografar{
+    border: thin solid var(--cor-secundaria);
+    border-radius: 24vw;
+    padding: 24px;
+    font-size: 1rem;
+    gap: 16px;
+    background-color: var(--cor-teciaria);
+    color: var(--cor-secundaria);
+    width: 328px;
+    text-align: center;
+}
+.decodificador__2abas__texto__botao__criptografar{
+    border: thin solid var(--cor-secundaria);
+    border-radius: 24vw;
+    padding: 24px;
+    font-size: 1rem;
+    gap: 16px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    text-shadow: 1px 1px black;
+    width: 330px ;
+    text-align: center;
+}
+
+.decodificador__2abas__mensagemde_decodificada{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 950px;    
+    background-color: var(--cor-primaria);
+    border-radius: 32px;
+    align-items: center;
+    gap: 30px;
+    padding: 1% 3% 1% 3%;
+}
+
+.decodificador__2abas__mensagemde_decodificada__menino{
+    width: 336px;
+    height: 304px;
+}
+
+.decodificador__2abas__mensagemde_decodificada__mensagem{
+    width: 336px;
+    height: 122px;
+}
+
+.decodificador__2abas__mensagemde_decodificada__resposta{
+    width: 336px;
+    height: 781px;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight:400;
+    text-align: center;
+}
+.decodificador__2abas__mensagemde_decodificada__botao_copiar{
+    width: 336px;
+    border: thin solid var(--cor-secundaria);
+    border-radius: 24vw;
+    padding: 20px;
+    font-size: 1rem;
+    gap: 16px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
